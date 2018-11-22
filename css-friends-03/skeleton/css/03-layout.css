@@ -1,0 +1,27 @@
+/* PHASE 3: Layout */
+.content {
+  display: flex;
+  /* flex-direction: column; */
+  /* border-left: 1px solid #ccc; */
+  /* justify-content: center;  */
+  width: 900px;
+  margin: 0 auto;
+}
+
+.content-sidebar {
+  display: flex;
+  min-height: 200px;
+  width: 30%;
+  background-color: green;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.content-main {
+  display: flex;
+  min-height: 200px;
+  width: 70%;
+  background-color: yellow;
+  /* justify-content: center;
+  align-items: center; */
+}
